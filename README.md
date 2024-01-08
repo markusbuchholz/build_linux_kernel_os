@@ -55,6 +55,13 @@ sudo docker cp 6e62919338c3:/boot-os/init.cpio .
 
 
 ```bash
+
+#if you do not have qemu, install:
+
+sudo apt install qemu-system-x86
+
+# run Linux OS:
+
 sudo qemu-system-x86_64 -kernel bzImage -initrd init.cpio
 ```
 
