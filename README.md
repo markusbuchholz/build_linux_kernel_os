@@ -10,7 +10,6 @@ make menuconfig
 
 make -j8
 
-
 mkdir /boot-os
 
 cp arch/x86/boot/bzImage /boot-os/
