@@ -36,6 +36,13 @@ chmod +x init
 find . | cpio -o -H newc > ../init.cpio
 ```
 
+Setup of init file,
+
+```bash
+ #!/bin/sh
+ /bin/sh
+```
+
 On the other terminal find running Docker container linux_os
 
 ```bash
